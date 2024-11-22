@@ -1,4 +1,4 @@
-### The Horror - README
+### The Horror
 
 **The Horror** é um software criado para os fãs de filmes de terror, permitindo catalogar e organizar os seus títulos favoritos de forma prática e personalizada. Ele oferece uma interface simples e intuitiva para que você possa gerenciar sua coleção de filmes de terror e descobrir novas obras do gênero.
 
@@ -124,7 +124,7 @@ Se você quiser contribuir com melhorias ou adicionar novas funcionalidades, sig
 
 - **Desenvolvedor**: Matheus Ferreira  
 - **GitHub**: [matheusfesantos](https://github.com/matheusfesantos)  
-- **E-mail**: (adicione seu e-mail aqui, se preferir)  
+- **E-mail**: theucontatos@gmail.com
 
 ---
 
