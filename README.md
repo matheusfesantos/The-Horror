@@ -10,9 +10,7 @@ O projeto **The Horror** foi desenvolvido com o objetivo de fornecer aos usuári
 
 - Título  
 - Diretor  
-- Ano de lançamento  
-- Gênero (ex.: Slasher, Sobrenatural, etc.)  
-- Sua opinião pessoal e avaliações  
+- Ano de lançamento
 
 Este projeto foi idealizado como uma forma de aplicar conceitos de **desenvolvimento de software**, **design de interfaces** e organização de dados.
 
@@ -21,8 +19,7 @@ Este projeto foi idealizado como uma forma de aplicar conceitos de **desenvolvim
 ## 🛠️ **Tecnologias Utilizadas**
 
 - **Java**: Para desenvolvimento da lógica e estrutura do software.  
-- **JavaFX**: Para construção da interface gráfica interativa.  
-- **SQLite**: Para armazenar os dados da sua coleção de filmes localmente.  
+- **JavaFX**: Para construção da interface gráfica interativa.    
 - **CSS**: Para estilizar a interface com um visual que combina com o tema de terror.  
 
 ---
