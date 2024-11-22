@@ -21,7 +21,8 @@ public class TelaInicial extends Application {
         BorderPane folclore = new BorderPane();
         /*
         folclore.setStyle("-fx-background-image: url('" + getClass().getResource(
-                "resources/Images/Background.gif").toExternalForm() + "');" + "-fx-background-size: cover;");
+                "").toExternalForm() + "');" +
+                "-fx-background-size: transparent;");
          */
 
         VBox vbox = new VBox(10);
@@ -56,7 +57,7 @@ public class TelaInicial extends Application {
         footer.setId("footer");
 
         Label rodapeLabel = new Label("By Matheus Ferreira");
-        rodapeLabel.setId("rodape");
+        rodapeLabel.setId("rodape-label");
 
         footer.getChildren().addAll(rodapeLabel);
         folclore.setBottom(footer);
