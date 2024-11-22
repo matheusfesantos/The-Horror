@@ -1,0 +1,22 @@
+#titulo-label{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+#iniciar-button, #sobre-button{
+    -fx-padding: 20px;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-background-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+#footer{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#rodape-label{
+    -fx-text-fill: white;
+}
