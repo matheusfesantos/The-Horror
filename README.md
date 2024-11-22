@@ -120,12 +120,6 @@ Se você quiser contribuir com melhorias ou adicionar novas funcionalidades, sig
 
 ---
 
-## 📝 **Licença**
-
-Este projeto está licenciado sob a **MIT License**. Consulte o arquivo `LICENSE` para mais informações.
-
----
-
 ## 📬 **Contato**
 
 - **Desenvolvedor**: Matheus Ferreira  
