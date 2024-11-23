@@ -62,8 +62,8 @@ The-Horror/
 │   │   │   │   └── Background.gif
 │   │   │   └── Style/
 │   │   │       └── Telalnicial.css
-├── The_Horror.iml
-└── README.md
+├── README.md
+└── The_Horror.iml
 ```
 
 ### **Descrição dos Diretórios e Arquivos**
