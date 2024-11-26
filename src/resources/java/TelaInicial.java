@@ -16,14 +16,10 @@ public class TelaInicial extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("THE HORROR");
+        String String = "THE HORROR";
+        primaryStage.setTitle(String);
 
         BorderPane folclore = new BorderPane();
-        /*
-        folclore.setStyle("-fx-background-image: url('" + getClass().getResource(
-                "").toExternalForm() + "');" +
-                "-fx-background-size: transparent;");
-         */
 
         VBox vbox = new VBox(10);
         vbox.setAlignment(Pos.CENTER);
@@ -41,7 +37,10 @@ public class TelaInicial extends Application {
         iniciar.setId("iniciar-button");
         vbox.getChildren().add(iniciar);
 
-        iniciar.setOnAction(e -> {});
+        iniciar.setOnAction(e ->{
+            Filmes filme = new Filmes();
+            filme.start(new Stage());
+        });
 
         Button sobre = new Button("SOBRE NÓS");
         sobre.setId("sobre-button");

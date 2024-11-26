@@ -1,4 +1,4 @@
-package resources.java.DadosFilmes;
+package requisições.DadosFilmes;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,9 +7,8 @@ import java.util.Scanner;
 
 public class DadosFilmes {
     public static void main(String[] args) {
-        String caminhoDoArquivo =
-                "C:\\Users\\matheus.fgs\\Desktop\\The_Horror" +
-                        "\\Banco_de_Dados\\Info_Filmes.txt";
+        String caminhoDoArquivo = "C:\\Users\\matheus.fgs\\Desktop\\The-Horror\\src" +
+                "\\Banco_de_Dados\\Info_Filmes.txt";
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o nome do filme que deseja buscar: ");
