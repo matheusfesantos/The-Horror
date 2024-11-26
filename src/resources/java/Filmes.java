@@ -8,10 +8,13 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
+import requisições.DadosFilmes.DadosFilmes;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Filmes extends Application {
+
+    public Filmes(){}
 
     String filme;
     public Filmes(String filme){
@@ -23,6 +26,10 @@ public class Filmes extends Application {
 
         BorderPane Telafilme = new BorderPane();
 
+        boolean enviarfilmes = true;
+        if (enviarfilmes){
+            DadosFilmes dados = new DadosFilmes(enviarfilmes);
+        }
         primaryStage.setTitle("THE HORROR");
 
         VBox vbox = new VBox();
@@ -33,14 +40,10 @@ public class Filmes extends Application {
         Button testar = new Button("Testar Filmes");
         testar.setId("testar");
         testar.setOnAction(e ->{
+            System.out.println(filme);
         });
 
-        Label nomefilmes = new Label(filme);
-        nomefilmes.setId("nomefilmes");
-
-
         vbox.getChildren().add(testar);
-        vbox.getChildren().add(nomefilmes);
 
         Telafilme.setCenter(vbox);
 
