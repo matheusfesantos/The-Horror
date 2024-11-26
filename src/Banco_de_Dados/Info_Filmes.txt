@@ -1,5 +1,5 @@
 - Filme: O Iluminado
-- Ano:1980
+- Ano: 1980
 - Diretor:Stanley Kubrick
 - Imagem :
 

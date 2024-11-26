@@ -40,6 +40,7 @@ public class TelaInicial extends Application {
         iniciar.setOnAction(e ->{
             Filmes filme = new Filmes();
             filme.start(new Stage());
+            primaryStage.close();
         });
 
         Button sobre = new Button("SOBRE NÓS");
