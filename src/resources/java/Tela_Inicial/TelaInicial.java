@@ -1,4 +1,4 @@
-package resources.java;
+package resources.java.Tela_Inicial;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -11,6 +11,7 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import resources.java.Tela_de_Filmes.Filmes;
 
 public class TelaInicial extends Application {
 
@@ -20,6 +21,7 @@ public class TelaInicial extends Application {
         primaryStage.setTitle(String);
 
         BorderPane folclore = new BorderPane();
+        folclore.setId("body");
 
         VBox vbox = new VBox(10);
         vbox.setAlignment(Pos.CENTER);
@@ -39,8 +41,7 @@ public class TelaInicial extends Application {
 
         iniciar.setOnAction(e ->{
             Filmes filme = new Filmes();
-            filme.start(new Stage());
-            primaryStage.close();
+            filme.start(primaryStage);
         });
 
         Button sobre = new Button("SOBRE NÓS");

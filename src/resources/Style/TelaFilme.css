@@ -4,21 +4,25 @@
     -fx-background-position: center;
 }
 
-#titulo-label{
-    -fx-text-fill: white;
-    -fx-font-weight: bold;
+#vbox{
+    -fx-background-color: rgba(255, 255, 255, 0.68);
 }
 
-#iniciar-button, #sobre-button{
+#button{
     -fx-padding: 20px;
     -fx-background-color: black;
     -fx-text-fill: white;
     -fx-background-radius: 20px;
+}
+
+#image-filme{
+    -fx-padding: 30px;
+    -fx-background-color: black;
     -fx-background-radius: 20px;
 }
 
-#iniciar-button:hover,#sobre-button:hover{
-    -fx-background-color: rgba(192, 192, 192, 0.71);
+#image-filme img:hover{
+    -fx-background-color: white;
 }
 
 #footer{
