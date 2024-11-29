@@ -1,11 +1,13 @@
-1;O Iluminado;1980;Stanley Kubrick;C:\Users\matheus.fgs\Desktop\The-Horror\Images\Filmes\Filmes\o iluminado 1.png
+1;O Iluminado;1980;Stanley Kubrick;C:\Users\matheus.fgs\Desktop\The-Horror\Images\Filmes\0_iluminado 1.png
 
-2;À Espera de um Milagre;1999;Frank Darabont
+2;A Espera de um Milagre;1999;Frank Darabont
 
 3;Um Sonho de Liberdade;1994;Frank Darabont
 
-4;It: A Coisa;2017;Andy Muschietti
+4;It A Coisa;2017;Andy Muschietti
 
 5;Carrie, a Estranha;1976;Brian De Palma
 
-6;Madrugada dos Mortos;2004;Zack Snyder;C:\Users\matheus.fgs\Desktop\The-Horror\Images\Filmes\Filmes\Madrugada_dos_Mortos.jpeg2007;
+6;Madrugada dos Mortos;2004;Zack Snyder;C:\Users\matheus.fgs\Desktop\The-Horror\Images\Filmes\Madrugada_dos_Mortos.jpeg
+
+7;Informe o Ano do Filme;Informe o Nome do Filme;Informe o Diretor do Filme'

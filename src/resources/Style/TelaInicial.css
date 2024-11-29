@@ -18,6 +18,9 @@
 }
 
 #iniciar-button:hover,#sobre-button:hover{
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 20px;
     -fx-background-color: rgba(192, 192, 192, 0.71);
 }
 

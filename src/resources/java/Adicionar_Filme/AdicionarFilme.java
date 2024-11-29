@@ -1,6 +1,7 @@
 package resources.java.Adicionar_Filme;
 
 import Banco_de_Dados.requisicoes.AdicionarFilme.AddFilme;
+
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -9,16 +10,12 @@ import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import resources.java.Tela_de_Filmes.Filmes;
 
-import java.io.File;
+import java.util.Optional;
 
 public class AdicionarFilme extends Application {
-
-    public static void main(String[] args) {
-        launch(args);
-    }
 
     @Override
     public void start(Stage primaryStage) {
@@ -30,7 +27,19 @@ public class AdicionarFilme extends Application {
         VBox vbox = new VBox();
         vbox.setId("vbox");
         vbox.setSpacing(10);
+        vbox.setPrefWidth(200);  // Largura preferencial
+        vbox.setPrefHeight(500); // Altura preferencial
+        vbox.setMaxWidth(500);   // Largura máxima
+        vbox.setMaxHeight(400);  // Altura máxima
         vbox.setPadding(new Insets(30));
+
+        Button voltar = new Button("VOLTAR");
+        voltar.setId("button");
+        voltar.setOnAction(e ->{
+            Filmes filme = new Filmes();
+            filme.start(primaryStage);
+        });
+        vbox.getChildren().add(voltar);
 
         Label titulofilme = new Label("Nome do Filme");
         titulofilme.setId("info-filme");
@@ -62,6 +71,11 @@ public class AdicionarFilme extends Application {
         enviarDados.setOnAction(e->{
             AddFilme addFilme = new AddFilme(respostatitulofilme,
                     respostadiretor, respostaanofilme);
+            Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+            alert.setTitle("THE HORROR");
+            alert.setHeaderText(null);
+            alert.setContentText("FILME ADICIONADO COM SUCESSO!");
+            Optional<ButtonType> result = alert.showAndWait();
         });
         vbox.getChildren().add(enviarDados);
 
@@ -74,13 +88,12 @@ public class AdicionarFilme extends Application {
         rodapeLabel.setId("rodape-label");
         footer.getChildren().addAll(rodapeLabel);
 
-        AdicionarFilme.setTop(vbox);
+        AdicionarFilme.setCenter(vbox);
         AdicionarFilme.setBottom(footer);
 
         Scene scene = new Scene(AdicionarFilme, 900,540);
         scene.getStylesheets().add(getClass().getResource("/resources/Style/TelaAddFilme.css").toExternalForm());
 
-        primaryStage.setTitle("Adicionar Filme");
         primaryStage.setScene(scene);
         primaryStage.show();
     }

@@ -4,8 +4,9 @@
     -fx-background-position: center;
 }
 
-#vbox{
-    -fx-background-color: rgba(255, 255, 255, 0.68);
+#scroll-pane{
+    -fx-background-color: white;
+    -fx-background-radius: 20px;
 }
 
 #button{
@@ -15,14 +16,11 @@
     -fx-background-radius: 20px;
 }
 
-#image-filme{
-    -fx-padding: 30px;
-    -fx-background-color: black;
-    -fx-background-radius: 20px;
-}
-
-#image-filme img:hover{
-    -fx-background-color: white;
+#button:hover{
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 20px;
+    -fx-background-color: rgba(192, 192, 192, 0.71);
 }
 
 #footer{
