@@ -10,4 +10,6 @@
 
 6;Madrugada dos Mortos;2004;Zack Snyder;C:\Users\matheus.fgs\Desktop\The-Horror\Images\Filmes\Madrugada_dos_Mortos.jpeg
 
-7;Informe o Ano do Filme;Informe o Nome do Filme;Informe o Diretor do Filme'
+9;O Nevoeiro;2007;Frank Darabont;C:\Users\matheus.fgs\Desktop\The-Horror\Images\Filmes\nevoeiro.jpg
+
+10;Hora do Vampiro;2024;Justin Simien;C:\Users\matheus.fgs\Desktop\The-Horror\Images\Filmes\hora_do_vampiro_2024.jpg

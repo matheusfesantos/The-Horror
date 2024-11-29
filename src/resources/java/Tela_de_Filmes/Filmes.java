@@ -9,15 +9,12 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import resources.java.Adicionar_Filme.AdicionarFilme;
 import resources.java.Tela_Inicial.TelaInicial;
+import resources.java.Tela_sobre_Filme.TelaSobreFilme;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.List;
 
 public class Filmes extends Application {
@@ -106,9 +103,11 @@ public class Filmes extends Application {
         Label diretor = new Label("Diretor: " + filme.getDiretor());
         Label ano = new Label("Ano: " + filme.getAno());
 
+        String nome = filme.getNome();
         Button filmes = new Button(filme.getNome());
-        filmes.setOnAction(e -> {
-            System.out.println(filme.getNome());
+        filmes.setOnAction(e ->{
+            TelaSobreFilme telaSobre = new TelaSobreFilme(nome);
+            telaSobre.start(new Stage());
         });
 
         vbox.getChildren().addAll(filmes, diretor, ano);

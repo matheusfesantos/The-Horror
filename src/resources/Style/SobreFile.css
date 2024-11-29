@@ -1,0 +1,29 @@
+#body {
+    -fx-background-image: url("file:/C:/Users/matheus.fgs/Desktop/The-Horror/Images/Fundo_de_Tela/Background.gif");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+#vbox{
+    -fx-background-color: white;
+    -fx-background-radius: 20px;
+}
+
+#button{
+    -fx-padding: 20px;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-background-radius: 20px;
+}
+
+#button:hover{
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 20px;
+    -fx-background-color: rgba(192, 192, 192, 0.71);
+}
+
+#filme{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
