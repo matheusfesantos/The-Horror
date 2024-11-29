@@ -105,6 +105,7 @@ public class Filmes extends Application {
 
         String nome = filme.getNome();
         Button filmes = new Button(filme.getNome());
+        filmes.setId("button");
         filmes.setOnAction(e ->{
             TelaSobreFilme telaSobre = new TelaSobreFilme(nome);
             telaSobre.start(new Stage());

@@ -27,3 +27,13 @@
     -fx-text-fill: white;
     -fx-font-weight: bold;
 }
+
+#footer{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#rodape-label{
+    -fx-text-fill: white;
+}
