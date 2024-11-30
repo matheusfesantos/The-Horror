@@ -20,7 +20,8 @@ import java.util.List;
 public class Filmes extends Application {
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(Stage primaryStage){
+
         primaryStage.setTitle("THE HORROR");
 
         BorderPane telaFilme = new BorderPane();
@@ -32,6 +33,7 @@ public class Filmes extends Application {
         VBox vbox = new VBox();
         vbox.setId("vbox");
         vbox.setSpacing(30);
+        vbox.setAlignment(Pos.CENTER);
         vbox.setPrefWidth(800);
         vbox.setPrefHeight(450);
 

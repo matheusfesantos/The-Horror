@@ -17,21 +17,16 @@ public class DadosFilmes {
                 // Split da linha para separar os dados
                 String[] dadosFilme = linha.split(";");
 
-                // Verifica se a linha contém pelo menos dois elementos
                 if (dadosFilme.length > 1) {
-                    // Compara o nome do filme
+
                     if (dadosFilme[1].equalsIgnoreCase(nomeFilme)) {
                         return dadosFilme;
                     }
-                } else {
-                    // Caso a linha não tenha os dados necessários, imprima um alerta
-                    System.out.println("Linha malformada: " + linha);
                 }
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        // Retorna null caso o filme não seja encontrado
         return null;
     }
 }
